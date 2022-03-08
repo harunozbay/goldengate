@@ -1647,6 +1647,12 @@ footer p {
 	.item-pro ul li{
 		font-size: 14px;
 	}
+	.carousel-caption h3{
+		font-size: 35px !important;
+	}
+	.carousel-caption p{
+		font-size: 20px !important;
+	}
 }
 
 @media screen and (max-width:767px){
@@ -1691,6 +1697,13 @@ footer p {
 	}
 	.navbar-expand-lg.top-nav .navbar-nav .nav-link::after{
 		display: none;
+	}
+
+	.carousel-caption h3{
+		font-size: 35px !important;
+	}
+	.carousel-caption p{
+		font-size: 20px !important;
 	}
 }
 
@@ -1761,6 +1774,12 @@ footer p {
 	#accordionExample .accordion-single .card-header h5 button{
 		white-space: inherit;
 		font-size: 14px;
+	}
+	.carousel-caption h3{
+		font-size: 35px !important;
+	}
+	.carousel-caption p{
+		font-size: 20px !important;
 	}
 }
 
