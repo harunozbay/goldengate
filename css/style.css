@@ -106,7 +106,6 @@ button.btn-secondary:hover{
 	color: #323232;
 	font-size: 14px;
 	font-weight: 500;
-	text-transform: uppercase;
 	position: relative;
 }
 .navbar-expand-lg.top-nav .navbar-nav .nav-link i{
