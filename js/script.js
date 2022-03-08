@@ -2,31 +2,6 @@
 
 	"use strict";
 
-	// Mouse pointer
-	$(".wrapper-main").prepend("<div class='mouse-pointer'></div>");
-
-	function showCoords(event) {
-		var x = event.pageX;
-		var y = event.pageY;
-		var follower = $(".mouse-pointer");
-		follower.css({
-			left: x + (-12.5) + "px",
-			top: y + (-12.5) + "px",
-		});
-
-	}
-
-	$(window).on("mousemove", function (event) {
-		showCoords(event);
-	});
-
-	$("li, a, button, input, textarea, .navbar-toggles").mouseenter(function () {
-		$(".mouse-pointer").css("opacity", "0");
-		$("li, a, button, input, textarea, .navbar-toggles").mouseleave(function () {
-			$(".mouse-pointer").css("opacity", "1");
-		});
-	});
-
 
 	// fixed-menu
 	$(window).on('scroll', function () {
